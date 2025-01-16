@@ -10,7 +10,7 @@ import option
 args=option.parse_args()
 from config import *
 from models.mgfn import mgfn
-from datasets.dataset import Dataset
+from datasets_loader.dataset import Dataset
 from train import train
 from test import test
 import datetime
